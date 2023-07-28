@@ -8,7 +8,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 1,
-    name: 'Roberto Calos',
+    name: 'Roberto Carlos',
     price: 65,
     description: 'Disco dos anos 80'
   },

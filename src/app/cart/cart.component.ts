@@ -25,11 +25,11 @@ export class CartComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    // Do something here after the component is initialized.
+  
   }
 
   onSubmit(): void {
-    // Process checkout data here
+  
     this.items = this.cartService.clearCart();
 
     const nameValue = this.checkoutForm.get('name')?.value;

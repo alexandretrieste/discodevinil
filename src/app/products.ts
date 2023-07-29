@@ -10,18 +10,18 @@ export const products: Product[] = [
     id: 1,
     name: 'Roberto Carlos',
     price: 65,
-    description: 'Disco dos anos 80'
+    description: 'Disc 80s years'
   },
   {
     id: 2,
     name: 'Blink 182',
     price: 182,
-    description: 'Disco dos anos 90'
+    description: 'Disc 90s years'
   },
   {
     id: 3,
     name: 'Michael Jackson',
     price: 110,
-    description: 'Disco dos anos 80'
+    description: 'Disc 80s years'
   }
 ];

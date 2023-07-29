@@ -16,6 +16,7 @@
       Name
     </label>
     <input id="name" type="text" formControlName="name">
+    <div *ngIf="isNameInvalid">Invalid name format. Only letters and spaces are allowed.</div>
   </div>
 
   <div>
@@ -23,8 +24,9 @@
       Address
     </label>
     <input id="address" type="text" formControlName="address">
+    <div *ngIf="isAddressInvalid">Invalid address format. Only letters, numbers, and spaces are allowed.</div>
   </div>
 
-  <button class="button" type="submit">Purchase</button>
+  <button class="button" type="submit" [disabled]="checkoutForm.invalid">Purchase</button>
 
 </form>
